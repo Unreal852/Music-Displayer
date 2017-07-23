@@ -20,6 +20,8 @@ namespace Music_Displayer
 
         private MusicSource m_musicSource;
 
+        private Process m_currentProcess;
+
         private DispatcherTimer m_TrackCheckTimer = new DispatcherTimer();
 
         public MainWindow()
@@ -84,6 +86,7 @@ namespace Music_Displayer
                 RemoveIfContains(ref songName, "- Google Chrome");
                 RemoveIfContains(ref songName, "- Mozilla Firefox");
                 RemoveIfContains(ref songName, "- Microsoft Edge");
+                RemoveIfContains(ref songName, "- Opera");
                 RemoveIfContains(ref songName, " - YouTube");
                 LogTrack(songName);
                 return songName;
