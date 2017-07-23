@@ -36,10 +36,6 @@
     <ApplicationIcon>if_apple-music-2_2301791 %281%29.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Interop.iTunesLib">
-      <HintPath>C:\Users\dodo-\Downloads\Interop.iTunesLib\Interop.iTunesLib.dll</HintPath>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </Reference>
     <Reference Include="MaterialDesignColors, Version=1.1.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.1.3\lib\net45\MaterialDesignColors.dll</HintPath>
     </Reference>
