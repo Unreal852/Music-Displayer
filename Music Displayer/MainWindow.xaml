@@ -1,0 +1,18 @@
+﻿<Window x:Class="Music_Displayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Music_Displayer"
+        ResizeMode="CanMinimize"
+        mc:Ignorable="d"
+        Closing="OnClosing"
+        Title="Music Displayer" Height="106.522" Width="657.201">
+    <Grid>
+        <Label Content="Track Player" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="CmbTrackPlayers" SelectionChanged="OnTrackPlayerChanged" Margin="96,10,10,0" VerticalAlignment="Top"/>
+        <Label Content="Current Track: " HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTrack" Content="" Margin="96,43,10,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
